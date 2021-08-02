@@ -1,0 +1,235 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #24282d;
+  margin: 0;
+}
+.page {
+  background-color: #ffffff;
+}
+header {
+  text-align: center;
+  padding: 40px 0px;
+}
+header h1 a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.site-description {
+  color: #b1b2b3;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px 0px 20px;
+}
+header ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.home-button {
+  color: #dd4b39;
+}
+header li {
+  display: none;
+  margin: 0px 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #24282d;
+  font-weight: bolder;
+}
+.menu-button {
+  display: inline;
+}
+.menu-button img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+main h1 {
+  font-size: 21.5px;
+  text-align: center;
+  font-weight: 900;
+}
+.black-bar {
+  border: 1px solid black;
+  text-align: center;
+}
+.content {
+  padding: 0px 20px;
+  margin: 20px 0px;
+  color: #7f8d8c;
+  font-size: 18px;
+  text-align: center;
+}
+.post {
+  display: inline-block;
+}
+.post-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.post-entry {
+  text-align: center;
+}
+.post-entry h1 {
+  font-size: 21.6px;
+  cursor: pointer;
+}
+.post-entry p {
+  font-size: 13.5px;
+  color: #7f8d8c;
+  cursor: pointer;
+}
+.portfolio {
+  margin-top: 20px;
+  text-align: start;
+}
+footer {
+  background: #f1f2f3;
+  text-align: center;
+}
+.social-media-button {
+  padding-top: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.footer-text {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 357px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .page {
+    margin: 20px;
+  }
+  header h1 a {
+    font-size: 79.5px;
+  }
+  .black-bar {
+    width: 400px;
+    margin: auto;
+  }
+  .portfolio {
+    padding: 20px;
+    text-align: center;
+  }
+  .portfolio-vertical-section-one {
+    display: inline-block;
+    float: left;
+    width: 44%;
+    padding: 0px 20px 40px;
+    margin: 0px;
+  }
+  .portfolio-vertical-section-two {
+    display: inline-block;
+
+    width: 44%;
+    padding: 0px 20px 40px;
+    margin: 0px;
+  }
+  .portfolio-vertical-section-three {
+    display: inline-block;
+    width: 100%;
+    padding: 0px 20px 40px;
+    margin: 0px;
+  }
+  .portfolio-vertical-section-three .post {
+    display: inline-block;
+    width: 42%;
+    padding: 0px 20px 40px;
+    margin: 0px;
+  }
+  .post-entry h1 {
+    font-size: 26px;
+  }
+  .post-entry p {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 960px) {
+  header li {
+    display: inline;
+    margin: 0px 10px;
+  }
+  .menu-button {
+    display: none;
+  }
+  .portfolio-vertical-section-one {
+    width: 28%;
+  }
+  .portfolio-vertical-section-two {
+    width: 28%;
+    float: left;
+  }
+  .portfolio-vertical-section-three {
+    width: 30%;
+  }
+  .portfolio-vertical-section-three .post {
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 0px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .portfolio-vertical-section-one {
+    width: 30%;
+  }
+  .portfolio-vertical-section-two {
+    width: 29%;
+  }
+  .portfolio-vertical-section-three {
+    width: 30%;
+  }
+}
